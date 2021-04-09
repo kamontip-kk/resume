@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.424101df.chunk.css",
+    "main.js": "/resume/static/js/main.2a2c9828.chunk.js",
+    "main.js.map": "/resume/static/js/main.2a2c9828.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.97b2da3e.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.97b2da3e.js.map",
+    "static/js/2.e8376242.chunk.js": "/resume/static/js/2.e8376242.chunk.js",
+    "static/js/2.e8376242.chunk.js.map": "/resume/static/js/2.e8376242.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "static/css/main.424101df.chunk.css.map": "/resume/static/css/main.424101df.chunk.css.map",
+    "static/js/2.e8376242.chunk.js.LICENSE.txt": "/resume/static/js/2.e8376242.chunk.js.LICENSE.txt",
+    "static/media/1_postbook.719e10e0.mp4": "/resume/static/media/1_postbook.719e10e0.mp4",
+    "static/media/1_register.e498fe6e.mp4": "/resume/static/media/1_register.e498fe6e.mp4",
+    "static/media/2_chat.ff20ea65.mp4": "/resume/static/media/2_chat.ff20ea65.mp4",
+    "static/media/2_mystagram.8114c21a.mp4": "/resume/static/media/2_mystagram.8114c21a.mp4",
+    "static/media/3_api.2dbcd3b0.mp4": "/resume/static/media/3_api.2dbcd3b0.mp4",
+    "static/media/3_boxgame.444ccce7.mp4": "/resume/static/media/3_boxgame.444ccce7.mp4",
+    "static/media/GoJoji_Trim.679cced6.mp4": "/resume/static/media/GoJoji_Trim.679cced6.mp4",
+    "static/media/email.b1eb7c3b.png": "/resume/static/media/email.b1eb7c3b.png",
+    "static/media/myimg.a28013e4.jpg": "/resume/static/media/myimg.a28013e4.jpg",
+    "static/media/phone.97cf3a3d.png": "/resume/static/media/phone.97cf3a3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97b2da3e.js",
+    "static/js/2.e8376242.chunk.js",
+    "static/css/main.424101df.chunk.css",
+    "static/js/main.2a2c9828.chunk.js"
+  ]
+}
