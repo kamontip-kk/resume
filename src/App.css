@@ -53,8 +53,8 @@ li{
     border-radius: 180px;
 
     display: grid;
-    row-gap: 15px;
-    column-gap: 10px;
+    row-gap: 10px;
+    column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "img name"
@@ -82,6 +82,7 @@ li{
     font-family: 'Noto Sans JP', sans-serif;
     
     grid-area: contact;
+    padding-top: 30px;
 }
 .Resume_objtive{
     font-family: 'Noto Sans JP', sans-serif;
@@ -92,21 +93,20 @@ li{
     font-family: 'Noto Sans JP', sans-serif;
 
     grid-area: skills;
-    padding-top: 5px;
 }
 .Resume_education{
     font-family: 'Noto Sans JP', sans-serif;
 
     grid-area: ed;
 
-    padding-top: 45px;
+    padding-top: 30px;
 }
 .Resume_activities{
     font-family: 'Noto Sans JP', sans-serif;
 
     grid-area: act;
 
-    padding-top: 10px;
+    padding-top: 25px;
 }
 .Resume_exp{
     font-family: 'Noto Sans JP', sans-serif;

@@ -13,7 +13,7 @@ function Resume(){
             </div>
             <div className="Resume_contact">
                 <h3 className="title">Contact</h3>               
-                <p> <img className="icon" src={address} alt="address"/>Phutthabucha 36 , Bangmod , Thungkru , Bangkok , 10140</p>
+                <p> <img className="icon" src={address} alt="address"/>Phutthabucha , Bangmod , Thungkru , Bangkok , 10140</p>
                 <p> <img className="icon" src={email} alt="email"/>kamontip.kpr@gmail.com</p>
                 <p> <img className="icon" src={phone} alt="phone"/>082-212-8661</p>    
             </div>
