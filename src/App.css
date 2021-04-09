@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+/* Normal */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 54, 54);
+}
+li{
+    margin-left: 30px;
+}
+.title{
+    /* color: rgb(39, 168, 155); */
+    color: rgb(0, 132, 150);
+    /* color: rgb(255, 230, 92); */
+    margin-bottom: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(44, 44, 44);
+    color: white;;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+._item{
+    color: wheat;
+
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 15px;
+}
+._item:hover{
+    color: rgb(139, 139, 139);
+    transition: 0.4s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Resume */
+.Resume{
+    width: 650px;
+    margin: 0 auto 30px auto;
+    padding: 25px;
+
+    color: wheat;
+    font-size: 18px;
+
+    border: 3px solid  rgb(44, 44, 44);
+    border-radius: 180px;
+
+    display: grid;
+    row-gap: 15px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "img name"
+    "contact obj"
+    "skills ed"
+    "act exp";
+}
+.Resume_img{
+    grid-area: img;
+
+    width: 250px;
+    border-radius: 150px;  
+}
+.Resume_name{
+    grid-area: name;
+
+    font-size: 62px;
+    padding: 40px 0 0 0;
+
+    /* color: rgb(161, 48, 48); */
+    /* color: rgb(255, 230, 92); */
+    color: white;
+}
+.Resume_contact{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    grid-area: contact;
+}
+.Resume_objtive{
+    font-family: 'Noto Sans JP', sans-serif;
+
+    grid-area: obj;
+}
+.Resume_skills{
+    font-family: 'Noto Sans JP', sans-serif;
+
+    grid-area: skills;
+    padding-top: 5px;
+}
+.Resume_education{
+    font-family: 'Noto Sans JP', sans-serif;
+
+    grid-area: ed;
+
+    padding-top: 45px;
+}
+.Resume_activities{
+    font-family: 'Noto Sans JP', sans-serif;
+
+    grid-area: act;
+
+    padding-top: 10px;
+}
+.Resume_exp{
+    font-family: 'Noto Sans JP', sans-serif;
+
+    grid-area: exp;
+}
+.icon{
+    width: 20px;
+    margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Portfolio */
+.explan{
+    font-family: 'Noto Sans JP', sans-serif;
 
-.App-link {
-  color: #61dafb;
-}
+    color: white;
+    font-size: 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    margin-bottom: 10px;
+}
+.Assignments , .Practice , .Projects{
+    width: 1000px;
+    margin: 0 auto;
+}
+.Assignments > h2 , .Practice > h2 , .Projects > h2{
+    color: rgb(0, 132, 150);
+    font-size: 40px;
+
+    margin-bottom: 25px;
+}
+video{
+    display: block;
+
+    margin-bottom: 50px;
+
+    border-radius: 50px;
+}
+video:focus{
+    outline: none;
 }
