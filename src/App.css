@@ -93,6 +93,8 @@ li{
     font-family: 'Noto Sans JP', sans-serif;
 
     grid-area: skills;
+    position: relative;
+    top: -40px;
 }
 .Resume_education{
     font-family: 'Noto Sans JP', sans-serif;
@@ -106,7 +108,7 @@ li{
 
     grid-area: act;
 
-    padding-top: 25px;
+    padding-top: 20px;
 }
 .Resume_exp{
     font-family: 'Noto Sans JP', sans-serif;

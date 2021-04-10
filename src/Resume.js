@@ -33,6 +33,7 @@ function Resume(){
                     <li>C#</li>
                     <li>Adobe Photoshop</li>
                     <li>Adobe Illustrator</li>
+                    <li>Git</li>
                 </ul>
             </div>
             <div className="Resume_education">
