@@ -8,7 +8,7 @@ function Practice(){
         <div className="Practice">
             <h2>Practice</h2>
             <div className="Practice_items">
-                <p className="explan">- Socail Media platform (using HTML , CSS ,React.js)</p>
+                <p className="explan">- Social Media platform (using HTML , CSS ,React.js)</p>
                 <video width="1000" height="562.5" controls>
                     <source src={postbook} type="video/mp4" alt="socialmedia"/>
                 </video>
