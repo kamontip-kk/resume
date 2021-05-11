@@ -121,6 +121,9 @@ li{
 }
 
 /* Portfolio */
+.Port_button{
+    position: relative;
+}
 .explan{
     font-family: 'Noto Sans JP', sans-serif;
 

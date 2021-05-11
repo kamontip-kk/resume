@@ -9,6 +9,9 @@ function Portfolio(){
             <Assignments/>
             <Practice/>
             <Projects/>
+            <div className="Port_button">
+                <a id="butToTop" href="#top">Go to Top</a>
+            </div>
         </div>
     )
 }

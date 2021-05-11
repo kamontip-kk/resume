@@ -18,10 +18,6 @@ function Practice(){
                     <source src={mystagram} type="video/mp4" alt="application"/>
                 </video>
 
-                <p className="explan">- APIs Testing (using HTML , CSS , JavaScript , Node.js)</p>
-                <video width="1000" height="562.5" controls>
-                    <source src={apitest} type="video/mp4" alt="apitesting"/>
-                </video>
             </div>
         </div>
     )
