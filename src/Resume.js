@@ -28,8 +28,9 @@ function Resume(){
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>React</li>
+                    <li>React.js</li>
                     <li>Node.js</li>
+                    <li>MySQL</li>
                     <li>C#</li>
                     <li>Adobe Photoshop</li>
                     <li>Adobe Illustrator</li>

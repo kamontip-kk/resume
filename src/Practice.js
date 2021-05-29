@@ -1,7 +1,6 @@
 import React from 'react';
 import postbook from './Practice/1_postbook.mp4';
 import mystagram from './Practice/2_mystagram.mp4';
-import apitest from './Practice/3_api.mp4';
 
 function Practice(){
     return(

@@ -6,11 +6,11 @@ import Projects from './Projects';
 function Portfolio(){
     return(
         <div className="Portfolio">
-            <Assignments/>
-            <Practice/>
-            <Projects/>
+            <Projects/> <br/>
+            <Assignments/> <br/>
+            <Practice/> <br/>
             <div className="Port_button">
-                <a id="butToTop" href="#top">Go to Top</a>
+                <a id="butToTop" href="#">Go to Top</a>
             </div>
         </div>
     )
